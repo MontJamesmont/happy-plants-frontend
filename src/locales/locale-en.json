@@ -1,0 +1,65 @@
+{
+    "getStarted": "Get started",
+    "yes": "Yes",
+    "no": "No",
+    "add": "Add",
+    "change": "Change",
+    "choose": "Choose",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "load": "Load",
+    "loading": "Loading",
+    "delete": "Delete",
+    "showMenu": "Show menu",
+    "hideMenu": "Hide menu",
+    "loader": {
+        "savingUser": "Saving user"
+    },
+    "auth": {
+        "signin_header": "Sign in to your account",
+        "email": "Email",
+        "password": "Password",
+        "password_confirm": "Confirm Password",
+        "remember": "Keep me logged in",
+        "forget_pass": "Forgot your password?",
+        "signin": "Sign In",
+        "signin_error": "The email or password is incorrect",
+        "register_account": "Sign up",
+        "forget_header": "Forgot Password",
+        "send": "Send",
+        "forget_message": "We sent an email with link to reset password.",
+        "reset_header": "Reset Password",
+        "reset": "Reset",
+        "reset_expired": "Reset password link is expired.",
+        "password_placeholder": "Password"
+    },
+    "register": {
+        "form_title": "Register Account",
+        "submit": "Register Account",
+        "email_not_sent": "An error occurred while sending the email.",
+        "user_exists": "A user with this email address already exists.",
+        "password_length": "The password should be at least 8 characters long.",
+        "password_not_strong": "The password must contain at least one lowercase letter, one uppercase letter, one special character, and one number.",
+        "account": "Already have an account?",
+        "login": "Log In",
+        "success_header": "Registration Successful",
+        "success_message": "Thank you for registering with us! Please check your email to activate your account."
+    },
+    "forgot": {
+        "title": "Forgot Your Password?",
+        "subtitle": "Enter the email address associated with your account, and we'll send you a link to reset your password.",
+        "submit": "Send Link",
+        "account": "Remembered Your Password?",
+        "login": "Log In",
+        "success_header": "Password Reset Email Sent",
+        "success_message": "If you entered a correct email address, a link to reset your password has been sent to it. Please check your inbox for instructions. If you don't see the email, be sure to check your spam folder or try resending the email."
+    },
+    "reset": {
+        "title": "Reset Password",
+        "subtitle": "Enter Your New Password Below.",
+        "submit": "Reset Password",
+        "user_not_found": "No user found with the provided email address."
+    }
+}
