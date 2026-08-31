@@ -6,6 +6,7 @@ import i18n from '@/i18n'
 import { apiBase, apiEndpoints } from '@/shared/endpoints/api'
 import { User } from '@/shared/interfaces/user.model'
 import router from '../router'
+import plants from './modules/plants'
 
 
 const parseErrorsToInputErrorMessage = (err: any, formName: string | undefined) => {
@@ -249,6 +250,7 @@ const store = createStore({
     }
   },
   modules: {
+    plants
   }
 })
 
