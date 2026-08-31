@@ -68,7 +68,7 @@ export default defineComponent({
         this.v$.$reset()
         this.email = ''
         this.password = ''
-        this.$router.push(this.$route.query.redirect || '/creator')
+        this.$router.push(this.$route.query.redirect || '/account')
       }).catch((err) => {
         this.isLoading = false
         console.log(err)
