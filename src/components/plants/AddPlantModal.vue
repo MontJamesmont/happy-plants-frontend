@@ -152,7 +152,8 @@ export default defineComponent({
         commonName: this.selectedSpec.common_name || this.selectedSpec.scientific_name,
         ownersPlantName: this.ownersPlantName || undefined,
         firstWateringDay: this.firstWateringDayInput ? new Date(this.firstWateringDayInput).toISOString() : new Date().toISOString(),
-        wateringIntervalDays: (this.selectedDetails && (this.selectedDetails.watering_general_benchmark || this.selectedDetails.watering_interval_days)) || this.selectedSpec.watering_general_benchmark || undefined
+        wateringIntervalDaysValue: (this.selectedDetails && this.selectedDetails.watering_general_benchmark) ? this.selectedDetails.watering_general_benchmark.value : this.selectedSpec.watering_general_benchmark ? this.selectedSpec.watering_general_benchmark.value : undefined,
+        wateringIntervalDaysUnit: (this.selectedDetails && this.selectedDetails.watering_general_benchmark) ? this.selectedDetails.watering_general_benchmark.unit : this.selectedSpec.watering_general_benchmark ? this.selectedSpec.watering_general_benchmark.unit : undefined
       }
       if (plantImage) plantData.images = [plantImage]
       try {

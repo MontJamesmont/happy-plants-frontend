@@ -46,6 +46,7 @@ const actions = {
       const resp = await client({ method: apiEndpoints.create.method, url: apiEndpoints.create.url, data: plantData })
       const created = resp.data.result || resp.data
       context.commit('addPlant', created)
+      context.dispatch('getLoggedUser')
       return created
     } catch (err) {
       throw err
@@ -53,10 +54,10 @@ const actions = {
   },
   updatePlantName: async (context: any, { id, ownersPlantName }: { id: string, ownersPlantName: string }) => {
     try {
-      const url = apiEndpoints.patchName.url.replace(':id', id)
-      const resp = await client({ method: apiEndpoints.patchName.method, url, data: { ownersPlantName } })
+      const resp = await client({ method: apiEndpoints.patchName.method, url: apiEndpoints.patchName.url, data: { ownersPlantName, id } })
       const updated = resp.data.result || resp.data
       context.commit('updatePlant', updated)
+      context.dispatch('getLoggedUser') // Refresh logged user data to reflect the updated plant name
       return updated
     } catch (err) {
       throw err
@@ -67,6 +68,7 @@ const actions = {
       const url = apiEndpoints.remove.url.replace(':id', id)
       await client({ method: apiEndpoints.remove.method, url })
       context.commit('removePlant', id)
+      context.dispatch('getLoggedUser')
     } catch (err) {
       throw err
     }

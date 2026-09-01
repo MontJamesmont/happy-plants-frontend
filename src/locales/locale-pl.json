@@ -94,4 +94,47 @@
             "next": "Następna"
         }
     }
+    ,
+    "app": {
+        "name": "HappyPlants"
+    },
+    "landing": {
+        "nav": {
+            "features": "Funkcje",
+            "how": "Jak to działa",
+            "community": "Społeczność",
+            "login": "Zaloguj",
+            "signup": "Zarejestruj",
+            "account": "Konto",
+            "logout": "Wyloguj"
+        },
+        "hero": {
+            "title": "Rośnij z HappyPlants",
+            "subtitle": "Odkrywaj rośliny, śledź harmonogramy pielęgnacji i dziel się postępami z przyjazną społecznością. Ułatwiamy pielęgnację roślin.",
+            "ctaPrimary": "Utwórz konto",
+            "ctaSecondary": "Dowiedz się więcej"
+        },
+        "features": {
+            "discover": {
+                "title": "Odkrywaj rośliny",
+                "description": "Przeglądaj bazę roślin z poradami pielęgnacyjnymi i poziomami trudności."
+            },
+            "track": {
+                "title": "Śledź pielęgnację i przypomnienia",
+                "description": "Twórz harmonogramy, zapisuj notatki i otrzymuj przypomnienia, aby Twoje rośliny były zdrowe."
+            },
+            "community": {
+                "title": "Dziel się i ucz",
+                "description": "Dołącz do przyjaznej społeczności, aby dzielić się zdjęciami, poradami i otrzymywać wsparcie od innych miłośników roślin."
+            },
+            "explore": "Przeglądaj rośliny",
+            "startTracking": "Zacznij śledzić",
+            "joinNow": "Dołącz teraz"
+        },
+        "footer": {
+            "about": "O nas",
+            "privacy": "Prywatność",
+            "copyright": "© {year} HappyPlants"
+        }
+    }
 }

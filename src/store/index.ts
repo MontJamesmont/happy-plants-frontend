@@ -112,6 +112,16 @@ const store = createStore({
     setGlobalMessages: (state, globalMessages: any) => { state.globalMessages = globalMessages },
     setVuelidateExternalResults: (state, vuelidateExternalResults: any) => { state.vuelidateExternalResults = vuelidateExternalResults },
   },
+  getters: {
+    isAuthenticated: (state) => {
+      try {
+        const token = VueCookieNext.getCookie('token')
+        return !!token && !!state.loggedUser && !!state.loggedUser._id
+      } catch (e) {
+        return false
+      }
+    }
+  },
   actions: {
     setToken: async (context, token: string) => {
       VueCookieNext.setCookie('token', token, { path: '/', domain: location.hostname })

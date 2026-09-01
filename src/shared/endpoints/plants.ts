@@ -15,7 +15,7 @@ export const plantsEndpoints = {
   },
   patchName: {
     method: 'patch' as apiMethod,
-    url: '/plants/:id'
+    url: '/plants/patchName'
   },
   remove: {
     method: 'delete' as apiMethod,

@@ -94,4 +94,47 @@
             "next": "Next"
         }
     }
+    ,
+    "app": {
+        "name": "HappyPlants"
+    },
+    "landing": {
+        "nav": {
+            "features": "Features",
+            "how": "How it works",
+            "community": "Community",
+            "login": "Login",
+            "signup": "Sign Up",
+            "account": "Account",
+            "logout": "Logout"
+        },
+        "hero": {
+            "title": "Grow with HappyPlants",
+            "subtitle": "Discover plants, track care routines, and share your progress with a friendly community. Make plant care easy and joyful.",
+            "ctaPrimary": "Create Account",
+            "ctaSecondary": "Learn more"
+        },
+        "features": {
+            "discover": {
+                "title": "Discover Plants",
+                "description": "Browse a curated database of plants with care tips and difficulty levels."
+            },
+            "track": {
+                "title": "Track Care & Reminders",
+                "description": "Create care schedules, log notes, and get reminders to keep your plants thriving."
+            },
+            "community": {
+                "title": "Share & Learn",
+                "description": "Join a friendly community to share photos, tips, and get advice from other plant lovers."
+            },
+            "explore": "Explore Plants",
+            "startTracking": "Start Tracking",
+            "joinNow": "Join Now"
+        },
+        "footer": {
+            "about": "About",
+            "privacy": "Privacy",
+            "copyright": "© {year} HappyPlants"
+        }
+    }
 }
