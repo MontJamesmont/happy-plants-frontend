@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Almarai Regular'), local('Almarai-Regular'),
+        url('./assets/fonts/Almarai-Regular.woff') format('woff2'), // Chrome 26+, Opera 23+, Firefox 39+
+        url('./assets/fonts/Almarai-Regular.woff2') format('woff'); // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+}
+
+
+@font-face {
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Almarai Light'), local('Almarai-Light'),
+        url('./assets/fonts/Almarai-Light.woff') format('woff2'), // Chrome 26+, Opera 23+, Firefox 39+
+        url('./assets/fonts/Almarai-Light.woff2') format('woff'); // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+}
+
+
+@font-face {
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Almarai Bold'), local('Almarai-Bold'),
+        url('./assets/fonts/Almarai-Bold.woff') format('woff2'), // Chrome 26+, Opera 23+, Firefox 39+
+        url('./assets/fonts/Almarai-Bold.woff2') format('woff'); // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+}
+
+
+@font-face {
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Almarai Extrabold'), local('Almarai-Extrabold'),
+        url('./assets/fonts/Almarai-Extrabold.woff') format('woff2'), // Chrome 26+, Opera 23+, Firefox 39+
+        url('./assets/fonts/Almarai-Extrabold.woff2') format('woff'); // Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+
+}

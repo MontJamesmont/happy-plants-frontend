@@ -1,0 +1,140 @@
+{
+    "getStarted": "Projektuj",
+    "yes": "Tak",
+    "no": "Nie",
+    "add": "Dodaj",
+    "change": "Zmień",
+    "choose": "Wybierz",
+    "confirm": "Zatwierdź",
+    "edit": "Edytuj",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "load": "Załaduj",
+    "loading": "Ładowanie",
+    "delete": "Usuń",
+    "showMenu": "Pokaż menu",
+    "hideMenu": "Ukryj menu",
+    "loader": {
+        "savingUser": "Zapisywanie użytkownika"
+    },
+    "auth": {
+        "signin_header": "Zaloguj do Twojego konta",
+        "email": "Email",
+        "password": "Password",
+        "password_confirm": "Confirm Password",
+        "remember": "Keep me logged in",
+        "forget_pass": "Forgot your password?",
+        "signin": "Sign In",
+        "signin_error": "The email or password is incorrect",
+        "register_account": "Sign up",
+        "forget_header": "Forgot Password",
+        "send": "Send",
+        "forget_message": "We sent an email with link to reset password.",
+        "reset_header": "Reset Password",
+        "reset": "Reset",
+        "reset_expired": "Reset password link is expired.",
+        "password_placeholder": "Password"
+    },
+    "register": {
+        "form_title": "Rejestracja konta",
+        "submit": "Zarejestruj konto",
+        "email_not_sent": "Wystąpił błąd podczas wysyłania e-maila.",
+        "user_exists": "Użytkownik o tym adresie e-mail już istnieje.",
+        "password_length": "Długość hasła powinna wynosić co najmniej 8 znaków.",
+        "password_not_strong": "Powinno zawierać małą literę, dużą literę, co najmniej jeden znak specjalny oraz jedną cyfrę.",
+        "account": "Masz już konto?",
+        "login": "Zaloguj się",
+        "success_header": "Rejestracja udana",
+        "success_message": "Dziękujemy za rejestrację! Sprawdź swój e-mail, aby aktywować konto."
+    },
+    "forgot": {
+        "title": "Zapomniałeś hasła?",
+        "subtitle": "Wprowadź adres e-mail powiązany z Twoim kontem, a wyślemy Ci link do zresetowania hasła.",
+        "submit": "Wyślij link",
+        "account": "Przypomniałeś sobie hasło?",
+        "login": "Zaloguj się",        
+        "success_header": "Zresetuj hasło",
+        "success_message": "Jeśli podałeś prawidłowy adres email, link do zresetowania hasła został wysłany. Sprawdź swoją skrzynkę odbiorczą w poszukiwaniu instrukcji. Jeśli nie widzisz wiadomości, sprawdź folder ze spamem lub spróbuj wysłać email ponownie."
+    },
+    "reset": {
+        "title": "Zresetuj hasło",
+        "subtitle": "Wprowadź nowe hasło.",
+        "submit": "Zresetuj",
+        "user_not_found": "Nie znaleziono użytkownika o podanym adresie e-mail."
+    }
+    ,
+    "common": {
+        "noData": "Brak danych"
+    },
+    "plants": {
+        "commonName": "Nazwa zwyczajowa",
+        "nextWatering": "Następne podlewanie",
+        "previousWatering": "Poprzednie podlewanie",
+        "waterNeed": "Ogólne zapotrzebowanie na wodę",
+        "sunlight": "Nasłonecznienie",
+        "temperature": "Temperatura",
+        "toxicity": {
+            "label": "Toksyczność",
+            "humans": "ludzie: {value}",
+            "animals": "zwierzęta: {value}"
+        },
+        "diseases": "Choroby i szkodniki",
+        "careInstructions": "Instrukcje pielęgnacji",
+        "wateringInterval": "Częstotliwość podlewania: {interval}",
+        "addModal": {
+            "title": "Dodaj roślinę",
+            "searchPlaceholder": "Szukaj roślin (min 3 znaki)",
+            "searchButton": "Szukaj",
+            "loading": "Ładowanie...",
+            "noResults": "Brak wyników",
+            "addButton": "Dodaj",
+            "detailsButton": "Szczegóły",
+            "page": "Strona {page} / {total}",
+            "prev": "Poprzednia",
+            "next": "Następna"
+        }
+    }
+    ,
+    "app": {
+        "name": "HappyPlants"
+    },
+    "landing": {
+        "nav": {
+            "features": "Funkcje",
+            "how": "Jak to działa",
+            "community": "Społeczność",
+            "login": "Zaloguj",
+            "signup": "Zarejestruj",
+            "account": "Konto",
+            "logout": "Wyloguj"
+        },
+        "hero": {
+            "title": "Rośnij z HappyPlants",
+            "subtitle": "Odkrywaj rośliny, śledź harmonogramy pielęgnacji i dziel się postępami z przyjazną społecznością. Ułatwiamy pielęgnację roślin.",
+            "ctaPrimary": "Utwórz konto",
+            "ctaSecondary": "Dowiedz się więcej"
+        },
+        "features": {
+            "discover": {
+                "title": "Odkrywaj rośliny",
+                "description": "Przeglądaj bazę roślin z poradami pielęgnacyjnymi i poziomami trudności."
+            },
+            "track": {
+                "title": "Śledź pielęgnację i przypomnienia",
+                "description": "Twórz harmonogramy, zapisuj notatki i otrzymuj przypomnienia, aby Twoje rośliny były zdrowe."
+            },
+            "community": {
+                "title": "Dziel się i ucz",
+                "description": "Dołącz do przyjaznej społeczności, aby dzielić się zdjęciami, poradami i otrzymywać wsparcie od innych miłośników roślin."
+            },
+            "explore": "Przeglądaj rośliny",
+            "startTracking": "Zacznij śledzić",
+            "joinNow": "Dołącz teraz"
+        },
+        "footer": {
+            "about": "O nas",
+            "privacy": "Prywatność",
+            "copyright": "© {year} HappyPlants"
+        }
+    }
+}

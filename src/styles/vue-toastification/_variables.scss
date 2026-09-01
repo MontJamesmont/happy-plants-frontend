@@ -1,0 +1,34 @@
+$vt-namespace: "Vue-Toastification" !default;
+$vt-toast-min-width: 326px !default;
+$vt-toast-max-width: 800px !default;
+$vt-toast-max-width-by-2: -400px !default; // Used in _toastContainer.scss - Line 64
+$vt-toast-background: #ffffff !default;
+
+$vt-toast-min-height: 20px !default;
+$vt-toast-max-height: 800px !default;
+
+$vt-color-default: #BBD5FB !default;
+$vt-text-color-default: #24599C !default;
+$vt-color-info: #BBD5FB !default;
+$vt-text-color-info: #24599C !default;
+$vt-color-success: #DCF6E9 !default;
+$vt-text-color-success: #318855 !default;
+$vt-color-warning: #FBDFC5 !default;
+$vt-text-color-warning: #F2994A !default;
+$vt-color-error: #F8C9C9 !default;
+$vt-text-color-error: #C51F24 !default;
+
+$vt-color-progress-default: linear-gradient(
+  to right,
+  #4cd964,
+  #5ac8fa,
+  #007aff,
+  #34aadc,
+  #5856d6,
+  #ff2d55
+) !default;
+
+$vt-mobile: "only screen and (max-width : 600px)" !default;
+$vt-not-mobile: "only screen and (min-width : 600px)" !default;
+$vt-font-family: 'Almarai', Avenir, Helvetica, Arial, sans-serif !default;
+$vt-z-index: 9999 !default;
