@@ -62,4 +62,36 @@
         "submit": "Zresetuj",
         "user_not_found": "Nie znaleziono użytkownika o podanym adresie e-mail."
     }
+    ,
+    "common": {
+        "noData": "Brak danych"
+    },
+    "plants": {
+        "commonName": "Nazwa zwyczajowa",
+        "nextWatering": "Następne podlewanie",
+        "previousWatering": "Poprzednie podlewanie",
+        "waterNeed": "Ogólne zapotrzebowanie na wodę",
+        "sunlight": "Nasłonecznienie",
+        "temperature": "Temperatura",
+        "toxicity": {
+            "label": "Toksyczność",
+            "humans": "ludzie: {value}",
+            "animals": "zwierzęta: {value}"
+        },
+        "diseases": "Choroby i szkodniki",
+        "careInstructions": "Instrukcje pielęgnacji",
+        "wateringInterval": "Częstotliwość podlewania: {interval}",
+        "addModal": {
+            "title": "Dodaj roślinę",
+            "searchPlaceholder": "Szukaj roślin (min 3 znaki)",
+            "searchButton": "Szukaj",
+            "loading": "Ładowanie...",
+            "noResults": "Brak wyników",
+            "addButton": "Dodaj",
+            "detailsButton": "Szczegóły",
+            "page": "Strona {page} / {total}",
+            "prev": "Poprzednia",
+            "next": "Następna"
+        }
+    }
 }
