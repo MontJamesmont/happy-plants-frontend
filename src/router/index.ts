@@ -8,7 +8,7 @@ import { VueCookieNext } from 'vue-cookie-next'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    name: 'homeeee',
+    name: 'home',
     component: HomeView
   }, {
     path: '/auth',
