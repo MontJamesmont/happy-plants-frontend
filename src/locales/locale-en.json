@@ -62,4 +62,36 @@
         "submit": "Reset Password",
         "user_not_found": "No user found with the provided email address."
     }
+    ,
+    "common": {
+        "noData": "No data"
+    },
+    "plants": {
+        "commonName": "Common name",
+        "nextWatering": "Next watering",
+        "previousWatering": "Previous watering",
+        "waterNeed": "Water requirement",
+        "sunlight": "Sunlight",
+        "temperature": "Temperature",
+        "toxicity": {
+            "label": "Toxicity",
+            "humans": "humans: {value}",
+            "animals": "animals: {value}"
+        },
+        "diseases": "Diseases & pests",
+        "careInstructions": "Care instructions",
+        "wateringInterval": "Watering interval: {interval}",
+        "addModal": {
+            "title": "Add plant",
+            "searchPlaceholder": "Search plants (min 3 letters)",
+            "searchButton": "Search",
+            "loading": "Loading...",
+            "noResults": "No results",
+            "addButton": "Add",
+            "detailsButton": "Details",
+            "page": "Page {page} / {total}",
+            "prev": "Prev",
+            "next": "Next"
+        }
+    }
 }

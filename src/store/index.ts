@@ -7,22 +7,26 @@ import { apiBase, apiEndpoints } from '@/shared/endpoints/api'
 import { User } from '@/shared/interfaces/user.model'
 import router from '../router'
 import plants from './modules/plants'
+import perenual from './modules/perenual'
 
 
 const parseErrorsToInputErrorMessage = (err: any, formName: string | undefined) => {
   if (err.response) {
     const errors = err.response.data.errors
-    errors.forEach((error: { message: string, field: string, errorCode: string }) => {
-      if (formName) {
-        const errorMessage = error.errorCode ? error.errorCode : error.message
-        store.state.vuelidateExternalResults[formName] = {
-          ...store.state.vuelidateExternalResults[formName],
-          [error.field]: errorMessage.toString()
+    console.log('parseErrorsToInputErrorMessage', err.response)
+    if (errors && errors.length > 0) {
+      errors.forEach((error: { message: string, field: string, errorCode: string }) => {
+        if (formName) {
+          const errorMessage = error.errorCode ? error.errorCode : error.message
+          store.state.vuelidateExternalResults[formName] = {
+            ...store.state.vuelidateExternalResults[formName],
+            [error.field]: errorMessage.toString()
+          }
+        } else {
+          store.state.vuelidateExternalResults[error.field] = [error.errorCode ? error.errorCode : error.message]
         }
-      } else {
-        store.state.vuelidateExternalResults[error.field] = [error.errorCode ? error.errorCode : error.message]
-      }
-    })
+      })
+    }
   }
 }
 
@@ -250,7 +254,8 @@ const store = createStore({
     }
   },
   modules: {
-    plants
+    plants,
+    perenual
   }
 })
 
