@@ -6,16 +6,21 @@
         <PlantRow :plant="plant" @open="openDetails" @delete="deletePlant" @rename="renamePlant" />
       </li>
     </ul>
+    <PlantDetailsModal v-if="selectedPlant" :plant="selectedPlant" @close="(selectedPlant = null)" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import PlantRow from './PlantRow.vue'
+import PlantDetailsModal from './PlantDetailsModal.vue'
 
 export default defineComponent({
   name: 'PlantList',
-  components: { PlantRow },
+  components: { PlantRow, PlantDetailsModal },
+  data() {
+    return { selectedPlant: null as any }
+  },
   computed: {
     plants() {
       return (this as any).$store.getters['plants/allPlants'] || []
@@ -29,8 +34,8 @@ export default defineComponent({
   },
   methods: {
     openDetails(plant: any) {
-      // TODO: open details modal (could emit event to parent)
-      (this as any).$emit('open', plant)
+      // open details modal
+      (this as any).selectedPlant = plant
     },
     deletePlant(id: string) {
       (this as any).$store.dispatch('plants/deletePlant', id)
